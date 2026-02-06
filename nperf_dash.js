@@ -10,7 +10,7 @@
    
    ════════════════════════════════════════════════════════════════ */
 
-javascript:(function(){
+function(){
   /* Remove existing overlay if present */
   const existing = document.getElementById('nperf-custom-dashboard-overlay');
   if (existing) {
@@ -275,4 +275,4 @@ javascript:(function(){
       }
     };
   }
-})();
+}();
